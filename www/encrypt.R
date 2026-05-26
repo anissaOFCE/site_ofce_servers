@@ -12,11 +12,14 @@ if (isTRUE(staticryptR::check_system())) {
   )
 }
 
+pwd <- Sys.getenv("STATICRYPT_PASSWORD")
+if (!nzchar(pwd)) stop("STATICRYPT_PASSWORD is not set")
+
 staticryptR::staticryptr(
   files = "_site",
   directory = ".",
   recursive = TRUE,
-  password = Sys.getenv("STATICRYPT_PASSWORD"),
+  password = pwd,
   short = TRUE, # set to FALSE if you want to enforce a long password
   template_color_primary = "#e6142d",
   template_color_secondary = "#f9f9f3",
