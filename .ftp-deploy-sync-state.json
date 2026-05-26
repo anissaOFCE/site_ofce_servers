@@ -1,25 +1,25 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1779814742091,
+    "generatedTime": 1779814836220,
     "data": [
         {
             "type": "file",
             "name": ".ftp-deploy-sync-state.json",
             "size": 9821,
-            "hash": "327a1cb14c35f7ac896329646e1d3c4b17e2693b1aeb3545e7df9d12cc7adfff"
+            "hash": "ca53d1580b1865a3bb498857dd4e9482687eae8a36fe31e277e1cb49408a0c10"
         },
         {
             "type": "file",
             "name": "autres_page.html",
-            "size": 25044,
-            "hash": "74abe776e899557656cd0266543f005fba9a7d5499cd8300019150df4edc8a51"
+            "size": 85645,
+            "hash": "e4bac6657d0d36fad9b7a8925a040b4b7fdcff1c0c42436557b205a0db1ac77d"
         },
         {
             "type": "file",
             "name": "index.html",
-            "size": 25054,
-            "hash": "892e1ec3b5069fc20917e22d6fb0f7089b1caf2e38441c08fd3cdb3c51cba698"
+            "size": 85677,
+            "hash": "5b7a8927760d43f60358bbde856225f375c06013a9f6665fadf780525ac84dc8"
         },
         {
             "type": "file",
@@ -35,7 +35,7 @@
             "type": "file",
             "name": "sitemap.xml",
             "size": 322,
-            "hash": "2c9801b43f476c09940bfd70dfdc1642103a33a7a5e048127f4ea13feb5880e1"
+            "hash": "404de0dcf887b6cbe7fc39766d3660b37af477c384430d2ccae5d62cf0d5bb28"
         },
         {
             "type": "folder",
@@ -76,8 +76,8 @@
         {
             "type": "file",
             "name": "sub/page.html",
-            "size": 25096,
-            "hash": "7dca123a5c3d5bae6a20ae50a573c3fad6c069e645c358fd4b68d9973701e845"
+            "size": 85741,
+            "hash": "65f2254b3007fe04cd825c960b5f2b0d9cc2e191d55a7c38b460f94be6c6e3a3"
         },
         {
             "type": "file",
@@ -225,12 +225,6 @@
         },
         {
             "type": "file",
-            "name": "site_libs/quarto-contrib/social-share-0.5.0/1e21o67/fa-brands-400.woff2",
-            "size": 117852,
-            "hash": "232c6f6a7678304f9efaa26f30b1610debc2ba9f4cd636b5e6751c8d73761b92"
-        },
-        {
-            "type": "file",
             "name": "site_libs/quarto-contrib/social-share-0.5.0/1e21o67/fa-brands-400.ttf",
             "size": 209128,
             "hash": "e28096fa75a96ac77020155ea3a6dd7312983e84115366d4cf49a0c312ec6d51"
@@ -249,9 +243,9 @@
         },
         {
             "type": "file",
-            "name": "site_libs/quarto-contrib/social-share-0.5.0/1e21o67/fa-v4compatibility.ttf",
-            "size": 10832,
-            "hash": "ff8f525fb050c5d24519ccc8f5723d85b2e51edd3f9bc6548af55aebadd4f269"
+            "name": "site_libs/quarto-contrib/social-share-0.5.0/1e21o67/fa-brands-400.woff2",
+            "size": 117852,
+            "hash": "232c6f6a7678304f9efaa26f30b1610debc2ba9f4cd636b5e6751c8d73761b92"
         },
         {
             "type": "file",
@@ -261,15 +255,21 @@
         },
         {
             "type": "file",
-            "name": "site_libs/quarto-contrib/social-share-0.5.0/1e21o67/fa-v4compatibility.woff2",
-            "size": 4792,
-            "hash": "c7a869faca299d15be10a01f19d0765a7c4d46d8922d9b9317235c1e4a6f0982"
-        },
-        {
-            "type": "file",
             "name": "site_libs/quarto-contrib/social-share-0.5.0/1e21o67/fa-solid-900.woff2",
             "size": 156400,
             "hash": "ae17c16afbea216707b2203ea1cf9bdb45b9bfe47d0f4ae3258ddbc6294dd02f"
+        },
+        {
+            "type": "file",
+            "name": "site_libs/quarto-contrib/social-share-0.5.0/1e21o67/fa-v4compatibility.ttf",
+            "size": 10832,
+            "hash": "ff8f525fb050c5d24519ccc8f5723d85b2e51edd3f9bc6548af55aebadd4f269"
+        },
+        {
+            "type": "file",
+            "name": "site_libs/quarto-contrib/social-share-0.5.0/1e21o67/fa-v4compatibility.woff2",
+            "size": 4792,
+            "hash": "c7a869faca299d15be10a01f19d0765a7c4d46d8922d9b9317235c1e4a6f0982"
         }
     ]
 }
