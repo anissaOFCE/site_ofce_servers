@@ -12,6 +12,10 @@ if (isTRUE(staticryptR::check_system())) {
   )
 }
 
+old <- setwd("_site")
+on.exit(setwd(old))
+
+
 staticryptR::staticryptr(
   files = "_site",
   directory = ".",

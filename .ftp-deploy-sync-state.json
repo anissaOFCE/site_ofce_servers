@@ -1,13 +1,13 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1779814014937,
+    "generatedTime": 1779814139413,
     "data": [
         {
             "type": "file",
             "name": ".ftp-deploy-sync-state.json",
             "size": 9821,
-            "hash": "49a92d66c91556ed918b148feaab1c3ba106ddbf0da99629776dd34fcc59c92c"
+            "hash": "408ab10785522c948f1ba0e6e4ac2a02d288791ca06c30da2e74cdac27bdb370"
         },
         {
             "type": "file",
@@ -35,7 +35,7 @@
             "type": "file",
             "name": "sitemap.xml",
             "size": 322,
-            "hash": "c7ffba4e6fb259ba1c507a2455a0c39c446569e554c5ddbc56225e059b7bb331"
+            "hash": "1e67ae72cd23f1dee85ea5498684afcbda57d04582b727a3d1e283579c587f4a"
         },
         {
             "type": "folder",
@@ -81,15 +81,15 @@
         },
         {
             "type": "file",
-            "name": "www/logo.png",
-            "size": 2010,
-            "hash": "252e6199e9c43fc708c114dded787ce5517aeb6cdcf9464fc6d19211a998b826"
-        },
-        {
-            "type": "file",
             "name": "www/favicon.ico",
             "size": 5686,
             "hash": "f5b3687073674b43f63315bcb9a8b1147154e6c198e0129d5b69d5952f3b9084"
+        },
+        {
+            "type": "file",
+            "name": "www/logo.png",
+            "size": 2010,
+            "hash": "252e6199e9c43fc708c114dded787ce5517aeb6cdcf9464fc6d19211a998b826"
         },
         {
             "type": "file",
@@ -122,6 +122,10 @@
             "hash": "e17a1d816e13c0826e0ed7febfabc3277f45571234bde0bf9120829a7169edc9"
         },
         {
+            "type": "folder",
+            "name": "site_libs/quarto-contrib/social-share-0.5.0"
+        },
+        {
             "type": "file",
             "name": "site_libs/cookie-consent/cookie-consent.css",
             "size": 75,
@@ -132,10 +136,6 @@
             "name": "site_libs/cookie-consent/cookie-consent.js",
             "size": 206910,
             "hash": "8705f2ec4440409a916b9e3a76e038446f806d1d3a5c15be1815691280cd3a38"
-        },
-        {
-            "type": "folder",
-            "name": "site_libs/quarto-contrib/social-share-0.5.0"
         },
         {
             "type": "file",
@@ -202,14 +202,14 @@
             "hash": "1a23221f499b3993dc66ca5c8913e4e6602dfa4652337e9fbf75139ded5ece68"
         },
         {
+            "type": "folder",
+            "name": "site_libs/quarto-contrib/social-share-0.5.0/1e21o67"
+        },
+        {
             "type": "file",
             "name": "site_libs/quarto-contrib/social-share-0.5.0/all.css",
             "size": 141185,
             "hash": "5e1acbf131a037598e94c5804d7f8b04de3e9484cdf4775e951bc39c9b5bf3bb"
-        },
-        {
-            "type": "folder",
-            "name": "site_libs/quarto-contrib/social-share-0.5.0/1e21o67"
         },
         {
             "type": "file",
@@ -243,6 +243,12 @@
         },
         {
             "type": "file",
+            "name": "site_libs/quarto-contrib/social-share-0.5.0/1e21o67/fa-regular-400.woff2",
+            "size": 25392,
+            "hash": "c27da6f833431da5aa295c44540bfac0fd8270ba6a3c4346427006d8a7b34b76"
+        },
+        {
+            "type": "file",
             "name": "site_libs/quarto-contrib/social-share-0.5.0/1e21o67/fa-solid-900.ttf",
             "size": 420332,
             "hash": "b4990d0d0c5f5d38d62e936eea120674e584c7eea8dcee38a975c0cf9a37539b"
@@ -258,12 +264,6 @@
             "name": "site_libs/quarto-contrib/social-share-0.5.0/1e21o67/fa-v4compatibility.ttf",
             "size": 10832,
             "hash": "ff8f525fb050c5d24519ccc8f5723d85b2e51edd3f9bc6548af55aebadd4f269"
-        },
-        {
-            "type": "file",
-            "name": "site_libs/quarto-contrib/social-share-0.5.0/1e21o67/fa-regular-400.woff2",
-            "size": 25392,
-            "hash": "c27da6f833431da5aa295c44540bfac0fd8270ba6a3c4346427006d8a7b34b76"
         },
         {
             "type": "file",
