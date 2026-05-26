@@ -19,7 +19,7 @@ staticryptR::staticryptr(
   files = ".",
   directory = ".",
   recursive = TRUE,
-  password = pwd,
+  password = Sys.getenv("STATICRYPT_PASSWORD"),
   short = TRUE,
   template_color_primary = "#e6142d",
   template_color_secondary = "#f9f9f3",
