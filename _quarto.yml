@@ -1,8 +1,6 @@
 project:
   type: ofce-website
   execute-dir: file
-  post-render:
-    - www/encrypt.R
 execute:
   freeze: auto
 profile:
@@ -14,7 +12,7 @@ toc: false
 website:
   title: Page d'accueil
   site-url: https://www.ofce.fr/
-  site-path: staging/site_ofce_servers
+  site-path: staging/site_ofce_servers/v0
   repo-url: https://github.com/anissaOFCE/site_ofce_servers
   favicon: www/favicon.ico
   draft-mode: gone
@@ -42,13 +40,13 @@ website:
   other-links:
     - text: Page d'accueil
       icon: newspaper
-      href: https://www.ofce.fr/staging/site_ofce_servers/index.html
+      href: https://www.ofce.fr/staging/site_ofce_servers/v0/index.html
     - text: une autre page
       icon: newspaper
-      href: https://www.ofce.fr/staging/site_ofce_servers/autres_page.html
+      href: https://www.ofce.fr/staging/site_ofce_servers/v0/autres_page.html
     - text: Page
       icon: newspaper
-      href: https://www.ofce.fr/staging/site_ofce_servers/sub/page.html
+      href: https://www.ofce.fr/staging/site_ofce_servers/v0/sub/page.html
   comments:
     hypothesis: true
   search:
@@ -59,4 +57,5 @@ filters:
   - social-share
 format:
   ofce-website-html: default
+encrypt_site: true
 ofce_host: true
