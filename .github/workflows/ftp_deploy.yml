@@ -9,7 +9,6 @@ jobs:
 
     env:
       STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
-    run: Rscript www/encrypt.R
 
     permissions:
       contents: write
