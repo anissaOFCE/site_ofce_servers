@@ -12,15 +12,19 @@ if (isTRUE(staticryptR::check_system())) {
   )
 }
 
+old <- setwd("_site")
+on.exit(setwd(old))
+
 staticryptR::staticryptr(
-  files = "_site",
+  files = ".",
   directory = ".",
   recursive = TRUE,
-  password = Sys.getenv("STATICRYPT_PASSWORD"),
-  short = TRUE, # set to FALSE if you want to enforce a long password
+  password = pwd,
+  short = TRUE,
   template_color_primary = "#e6142d",
   template_color_secondary = "#f9f9f3",
   template_title = "Accès restreint",
-  template_instructions = "Entrez le mot de passe ou contactez un responsable de la page que vous souhaitez atteindre.",
+  template_instructions = "Entrez le mot de passe ou contactez un responsable de la page que
+  vous souhaitez atteindre.",
   template_button = "Accès"
 )
