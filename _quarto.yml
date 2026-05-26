@@ -1,8 +1,6 @@
 project:
   type: ofce-website
   execute-dir: file
-  post-render:
-    - www/encrypt.R
 execute:
   freeze: auto
 profile:
