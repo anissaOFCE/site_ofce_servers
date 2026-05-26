@@ -31,7 +31,7 @@ jobs:
           server:   ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.STAGING_USER }}
           password: ${{ secrets.STAGING_PASSWORD }}
-          server-dir: site_ofce_servers/v0/
+          server-dir: site_ofce_servers/
           port: 21
           local-dir: ./
           dangerous-clean-slate: false

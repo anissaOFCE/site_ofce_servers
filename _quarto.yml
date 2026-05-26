@@ -14,7 +14,7 @@ toc: false
 website:
   title: Page d'accueil
   site-url: https://www.ofce.fr/
-  site-path: staging/site_ofce_servers/v0
+  site-path: staging/site_ofce_servers
   repo-url: https://github.com/anissaOFCE/site_ofce_servers
   favicon: www/favicon.ico
   draft-mode: gone
@@ -42,13 +42,13 @@ website:
   other-links:
     - text: Page d'accueil
       icon: newspaper
-      href: https://www.ofce.fr/staging/site_ofce_servers/v0/index.html
+      href: https://www.ofce.fr/staging/site_ofce_servers/index.html
     - text: une autre page
       icon: newspaper
-      href: https://www.ofce.fr/staging/site_ofce_servers/v0/autres_page.html
+      href: https://www.ofce.fr/staging/site_ofce_servers/autres_page.html
     - text: Page
       icon: newspaper
-      href: https://www.ofce.fr/staging/site_ofce_servers/v0/sub/page.html
+      href: https://www.ofce.fr/staging/site_ofce_servers/sub/page.html
   comments:
     hypothesis: true
   search:
