@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "autres_page.html",
+    "href": "autres_page.html",
+    "title": "une autre page",
+    "section": "",
+    "text": "Remplacer le contenu de cette page par ce que vous voulez voir apparaître à la page d’accueil."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Page d’accueil",
+    "section": "",
+    "text": "Remplacer le contenu de cette page par ce que vous voulez voir apparaître à la page d’accueil."
+  },
+  {
+    "objectID": "sub/page.html",
+    "href": "sub/page.html",
+    "title": "Page",
+    "section": "",
+    "text": "Remplacer le contenu de cette page par ce que vous voulez voir apparaître à la page d’accueil."
+  }
+]
